@@ -1,4 +1,4 @@
-name: "shopcart cicd"
+name: "react_linux cicd"
 
 on: workflow_dispatch
 jobs:
@@ -16,7 +16,7 @@ jobs:
             - name: install pm2 globally
               run: npm install pm2 -g
             - name: deploy to aws
-              run: pm2 start npm --name "shopcart" -- start  
+              run: pm2 start npm --name react_linux -- run start  
 
 
               
