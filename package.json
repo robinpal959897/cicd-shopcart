@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "test": "vitest run"
-  },
+  "start": "vite",
+  "dev": "vite",
+  "build": "vite build",
+  "test": "vitest"
+}
+,
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -28,5 +28,17 @@
     "jsdom": "^26.1.0",
     "vite": "^6.3.1",
     "vitest": "^3.1.2"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinpal959897/react-ci-cd-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinpal959897/react-ci-cd-workflow/issues"
+  },
+  "homepage": "https://github.com/robinpal959897/react-ci-cd-workflow#readme"
 }

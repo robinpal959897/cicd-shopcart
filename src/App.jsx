@@ -22,11 +22,11 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> Hello robin
+          Edit <code>src/App.jsx</code> Hello RobiN PaL
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Vite and React logos to learn more nnnnnnn
       </p>
     </>
   )
