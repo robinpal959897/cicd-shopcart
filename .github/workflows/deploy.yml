@@ -12,11 +12,11 @@ jobs:
               with:
                 node-version: "18"
             - name: install dependencies 
-              uses: npm install
+              run: npm install
             - name: install pm2 globally
-              uses: npm install pm2 -g
+              run: npm install pm2 -g
             - name: deploy to aws
-              uses: pm2 start   
+              run: pm2 start npm --name "shopcart" -- start  
 
 
               
